@@ -20,17 +20,17 @@ CMD_IMG = getenv("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/c83b000f004f01897fe18.png")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "veezmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "kingdom_of_bot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "veezassistant1")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "kingdom_family")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "kingdom_family_chanel")
 # isi dengan username kamu tanpa simbol @
-OWNER_NAME = getenv("OWNER_NAME", "dlwrml")
+OWNER_NAME = getenv("OWNER_NAME", "kingdom_owner")
 # fill with your nickname
 ALIVE_NAME = getenv("ALIVE_NAME", "Levina")
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID"))
-DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
+DATABASE_URL = os.environ.get("DATABASE_URL","mongodb://mongo:PrgDvhMqPXtPP83a6X4c@containers-us-west-10.railway.app:5881")  # fill with your mongodb url
 # make a private channel and get the channel id
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 # just fill with True or False (optional)
