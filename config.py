@@ -27,7 +27,7 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "kingdom_family_chanel")
 # isi dengan username kamu tanpa simbol @
 OWNER_NAME = getenv("OWNER_NAME", "kingdom_owner")
 # fill with your nickname
-ALIVE_NAME = getenv("ALIVE_NAME", "Levina")
+ALIVE_NAME = getenv("ALIVE_NAME", "Kingdom")
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID","1985638127"))
 DATABASE_URL = os.environ.get("DATABASE_URL","mongodb://mongo:PrgDvhMqPXtPP83a6X4c@containers-us-west-10.railway.app:5881")  # fill with your mongodb url
